@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#messing up everything
 #-------------------------------------------------------------------------------
 # Author: John Hewitt
 # Version: 1.0 -- 1/10/13
