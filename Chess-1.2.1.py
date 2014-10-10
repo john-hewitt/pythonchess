@@ -1,5 +1,5 @@
 
-#No running as an executable
+#Same
 
 #-------------------------------------------------------------------------------
 # Author: John Hewitt
