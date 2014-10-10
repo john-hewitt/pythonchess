@@ -919,62 +919,62 @@ class GUI(object):
                         if platform == 'win32':
                             char = 'P'
                         else:
-                            char = 'â™Ÿ'
+                            char = 'Ã¢â„¢Å¸'
                     elif name == 'pawn' and not color:
                         if platform == 'win32':
                             char = 'p'
                         else:
-                            char = 'â™™'
+                            char = 'Ã¢â„¢â„¢'
                     elif name == 'rook' and color:
                         if platform == 'win32':    
                             char = 'R'
                         else:
-                            char = 'â™œ'
+                            char = 'Ã¢â„¢Å“'
                     elif name == 'rook' and not color:
                         if platform == 'win32':
                             char = 'r'
                         else:
-                            char = 'â™–'
+                            char = 'Ã¢â„¢â€“'
                     elif name == 'knight' and color:
                         if platform == 'win32':
                             char = 'E'
                         else:
-                            char = 'â™ž'
+                            char = 'Ã¢â„¢Å¾'
                     elif name == 'knight' and not color:
                         if platform == 'win32':
                             char = 'e'
                         else:
-                            char = 'â™˜'
+                            char = 'Ã¢â„¢Ëœ'
                     elif name == 'bishop' and color:
                         if platform == 'win32':
                             char = 'B'
                         else:
-                            char = 'â™�'
+                            char = 'Ã¢â„¢ï¿½'
                     elif name == 'bishop' and not color:
                         if platform == 'win32':
                             char = 'b'
                         else:
-                            char = 'â™—'
+                            char = 'Ã¢â„¢â€”'
                     elif name == 'king' and color:
                         if platform == 'win32':
                             char = 'K'
                         else:
-                            char = 'â™š'
+                            char = 'Ã¢â„¢Å¡'
                     elif name == 'king' and not color:
                         if platform == 'win32':
                             char = 'k'
                         else:
-                            char = 'â™”'
+                            char = 'Ã¢â„¢â€�'
                     elif name == 'queen' and color:
                         if platform == 'win32':
                             char = 'Q'
                         else:
-                            char = 'â™›'
+                            char = 'Ã¢â„¢â€º'
                     elif name == 'queen' and not color:
                         if platform == 'win32':
                             char = 'q'
                         else:
-                            char = 'â™•'
+                            char = 'Ã¢â„¢â€¢'
                 strings[itn] += ' '
                 strings[itn] += char
                 ## TO TEST FOR CORRECT COLORING
@@ -1288,6 +1288,8 @@ class knight():
             raise TakePiece
         
         #All cleaning up done by Logic().movepiece()!
+        
+#Comment for commit        
         
 class bishop():
     '''Contains all attributes, most importantly the conditions
